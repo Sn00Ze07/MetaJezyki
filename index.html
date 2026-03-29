@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Strona o zwierzętach" />
+    <title>Zwierzęta</title>
+    <meta name="author" content="Dawid & Szymon" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="tester">Informacje o zwierzętach</h1>
+      <h2><a href="blog.html" aria-label="Link do podstrony BLOG">Przejdź do BLOGA</a></h2>
+    </header>
+    <main>
+      <img
+        aria-label="zdjceie zwierzecia"
+        src="img/zwierze1.jpg"
+        alt="Zdjęcie zwierzęcia"
+      />
+
+      <button
+        id="pokaz"
+        aria-label="Przycisk pokażujący więcej informacji"
+        aria-expanded="false"
+        onclick="panelshow()"
+      >
+        Pokaż więcej informacji
+      </button>
+
+      <div id="panel" hidden>
+        <h2 class="tytul">Dlaczego zwierzęta są ważne?</h2>
+
+        <img
+          aria-label="Zdjęcie zwierzęcia"
+          src="img/zwierze.jpg"
+          alt="Zdjęcie zwierzęcia"
+          class="zdjecie"
+        />
+
+        <p class="informacja">
+          Zwierzęta odgrywają kluczową rolę w ekosystemie, pomagając w
+          utrzymaniu równowagi biologicznej. Są również źródłem pożywienia,
+          towarzystwa i inspiracji dla ludzi.
+        </p>
+
+        <h2 class="tytul">Jak możemy chronić zwierzęta?</h2>
+
+        <p class="informacja">
+          Możemy chronić zwierzęta poprzez wspieranie organizacji zajmujących
+          się ochroną przyrody, unikanie produktów pochodzących z nieetycznych
+          źródeł oraz edukowanie innych na temat znaczenia zwierząt w naszym
+          świecie.
+
+          <a
+            href="https://www.national-geographic.pl/przyroda/chcesz-pomoc-przyrodzie-oto-kilka-sposobow/"
+            aria-label="Link do strony z informacjami o pomocy przyrodzie"
+            target="_blank"
+          >
+            Dowiedz się więcej
+          </a>
+        </p>
+      </div>
+    </main>
+    <script>
+      function panelshow() {
+        const przycisk = document.getElementById("pokaz");
+        const panel = document.getElementById("panel");
+
+        if (panel.hasAttribute("hidden")) {
+          panel.removeAttribute("hidden");
+          przycisk.setAttribute("aria-expanded", "true");
+        } else {
+          panel.setAttribute("hidden", "");
+          przycisk.setAttribute("aria-expanded", "false");
+        }
+      }
+    </script>
+  </body>
+</html>

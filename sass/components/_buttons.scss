@@ -1,0 +1,18 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+#pokaz {
+  @include mixins.moj-border;
+
+  &:hover {
+    background-color: variables.$green-color;
+    border-color: variables.$accent-color;
+  }
+
+  &:focus {
+    @include mixins.moj-focus(
+      variables.$accent-color,
+      2px solid variables.$link-color
+    );
+  }
+}

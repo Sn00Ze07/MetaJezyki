@@ -1,0 +1,25 @@
+@use "../abstracts/variables";
+
+.blog-page {
+  background-image: url("img/tlo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blog {
+  padding: 20px;
+}
+
+.post {
+  border: 1px solid variables.$bialy;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.blog_opublikowane {
+  text-align: center;
+  text-decoration: bold;
+  color: variables.$czarny;
+}

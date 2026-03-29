@@ -1,0 +1,8 @@
+1. dodać nową podstronę (osobny plik html) podstrona blog
+2. wpisy blogowe mają być generowane dynamicznie na podstawie danych zapisanych w pliku .json
+3. każdy wpis renderujemy jako article
+4. dane mają zawierać przypadki niepełne, np. cos jest nullem albo nie ma autora albo puste tagi
+5. json ma mieć 5 obiektów, które będą rozbudowane, różne właściwości: autor, data, kategoria, tagi, zdjęcia, czas czytania, czy jest już wydany itd.
+6. pola powinny być także zagnieżdżone (tablice, obiekty itp.)
+7. pobieranie funkcją fetch w js, do obsługi responsa
+8. 2 pliki .json w folderze - jeden dla opublikowanych a drugi dla przyszłych (do publikacji)

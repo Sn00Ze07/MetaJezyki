@@ -1,0 +1,15 @@
+@use "sass/abstracts/variables";
+@use "sass/abstracts/functions";
+@use "sass/abstracts/mixins";
+@use "sass/components/buttons";
+@use "sass/components/blog";
+@use "sass/components/paragraph";
+@use "sass/base/global";
+@use "sass/layout/images";
+@use "sass/components/article";
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: variables.$bialy;
+}

@@ -1,0 +1,6 @@
+a:focus {
+  @include mixins.moj-focus(
+    variables.$accent-color,
+    2px solid variables.$link-color
+  );
+}

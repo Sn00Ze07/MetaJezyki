@@ -1,0 +1,61 @@
+/* elementy po prostu np h1
+ID #id
+Klasy .klasa
+wszędzie * 
+*/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+body {
+    background-color: black;
+}
+
+p{
+    border: 1px solid white;
+}
+#pokaz{
+    text-decoration: underline;
+    color:black;
+}
+
+p.informacja{
+    background-color: #0e1531;
+    padding: 10px;
+    border-radius: 20px;
+}
+#panel a{ /* potomka */
+    color: #00f2ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#panel > h2{ /* dziecka */
+    font-weight: bold;
+}
+
+.zdjecie{
+    width: 400px;
+    height: 300px;
+}
+
+h2 ~ p{ /* rodzeństwa */
+    color: red;
+}
+
+#panel[hidden] {
+    display: none;
+}
+
+#panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button:focus, a:focus {
+    background-color: red;
+    outline: solid 5px orange;
+}

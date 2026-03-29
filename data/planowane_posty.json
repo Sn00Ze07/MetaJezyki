@@ -1,0 +1,47 @@
+[
+  {
+    "id": 101,
+    "autor": "Anna Kowal",
+    "tytul": "5 sygnalow, ze pies potrzebuje odpoczynku",
+    "data": "2026-04-05",
+    "kategoria": "Psy",
+    "opis": "Zaplanowany wpis o obserwacji zachowania psa po aktywnym dniu.",
+    "status": "nie dodany"
+  },
+  {
+    "id": 102,
+    "autor": "Redakcja",
+    "tytul": "Czy kot lubi rutyne",
+    "data": "2026-04-11",
+    "kategoria": "Koty",
+    "opis": "Prosty wpis o tym, dlaczego koty lubia przewidywalny dzien.",
+    "status": "nie dodany"
+  },
+  {
+    "id": 103,
+    "autor": "Patryk Zielinski",
+    "tytul": "Terrarium dla gekona krok po kroku",
+    "data": "2026-04-18",
+    "kategoria": "Gady",
+    "opis": "Planowany poradnik o oswietleniu, temperaturze i kryjowkach.",
+    "status": "nie dodany"
+  },
+  {
+    "id": 104,
+    "autor": "Redakcja",
+    "tytul": "Zabawki dla fretki",
+    "data": "2026-04-25",
+    "kategoria": "Male zwierzeta",
+    "opis": "Roboczy opis wpisu o bezpiecznych zabawkach dla fretki.",
+    "status": "nie dodany"
+  },
+  {
+    "id": 105,
+    "autor": "Julia Wrona",
+    "tytul": "Jak przygotowac transporter dla kota",
+    "data": "2026-05-02",
+    "kategoria": "Koty",
+    "opis": "Praktyczne wskazowki przed podroza z kotem.",
+    "status": "nie dodany"
+  }
+]

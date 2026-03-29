@@ -1,0 +1,51 @@
+@use '../abstracts/variables';
+@use "../abstracts/mixins";
+
+p {
+  border: 1px solid variables.$bialy;
+  color: variables.$bialy;
+}
+
+p.informacja {
+  background-color: variables.$inny-color;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#panel a {
+  /* potomka */
+  color: variables.$link-color;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artykul {
+  color: variables.$bialy;
+  border: 1px solid variables.$red-color;
+  padding: 10px;
+}
+
+#panel > h2 {
+  /* dziecka */
+  font-weight: bold;
+}
+
+h2 ~ p {
+  /* rodzeństwa */
+  color: variables.$red-color;
+}
+
+#panel[hidden] {
+  display: none;
+}
+
+#panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  @include mixins.dlahtester(variables.$link-color, 40px);
+}
+

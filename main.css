@@ -1,0 +1,141 @@
+@charset "UTF-8";
+#pokaz {
+  background-color: #ccff00;
+  color: #000000;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+#pokaz:hover {
+  background-color: #00ff00;
+  border-color: #ccff00;
+}
+#pokaz:focus {
+  background-color: #ccff00;
+  outline: 2px solid #00f2ff;
+}
+
+.blog-page {
+  background-image: url("img/tlo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blog {
+  padding: 20px;
+}
+
+.post {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.blog_opublikowane {
+  text-align: center;
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+  color: #000000;
+}
+
+p {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+p.informacja {
+  background-color: #090b13;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#panel a {
+  /* potomka */
+  color: #00f2ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artykul {
+  color: #ffffff;
+  border: 1px solid #ff0000;
+  padding: 10px;
+}
+
+#panel > h2 {
+  /* dziecka */
+  font-weight: bold;
+}
+
+h2 ~ p {
+  /* rodzeństwa */
+  color: #ff0000;
+}
+
+#panel[hidden] {
+  display: none;
+}
+
+#panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  color: #00f2ff;
+  font-size: 40px;
+}
+
+body {
+  background-color: #000000;
+}
+
+#publiczne-posty,
+#planowane-posty {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: wrap;
+  gap: 20px;
+}
+
+.zdjecie {
+  width: 400px;
+  height: 300px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 1px solid #d1d5db;
+  width: 450px;
+  text-align: left;
+  background-color: #fdfbf7;
+  padding: 14px;
+}
+article .artykul {
+  color: #000000;
+  border: 2px solid #d1d5db;
+  background-color: #fffaf0;
+}
+article:hover {
+  border-color: #9ca3af;
+  transform: translateY(-10px);
+  transition: border-color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.artykul:first-child, .artykul:last-child {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */

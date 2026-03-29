@@ -1,0 +1,26 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  border: 1px solid variables.$ramka-color;
+  width: 450px;
+  text-align: left;
+  background-color: variables.$tabela-color;
+  padding: 14px;
+
+  .artykul {
+    color: variables.$czarny;
+    border: 2px solid variables.$ramka-color;
+    background-color: #fffaf0;
+  }
+  &:hover {
+    @include mixins.animacja_tabela;
+  }
+}
+.artykul:first-child, .artykul:last-child {
+  text-align: center;
+}

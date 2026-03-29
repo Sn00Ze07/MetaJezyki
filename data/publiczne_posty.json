@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "autor": "Anna Kowal",
+    "tytul": "Jak opiekowac sie psem zima",
+    "data": "2026-01-12",
+    "kategoria": "Psy",
+    "opis": "Krotki przewodnik po spacerach, diecie i bezpieczenstwie psa w chlodniejsze dni.",
+    "status": "opublikowany"
+  },
+  {
+    "id": 2,
+    "autor": "Redakcja",
+    "tytul": "Czy kot potrzebuje drapaka",
+    "data": "2026-02-03",
+    "kategoria": "Koty",
+    "opis": "Kilka prostych powodow, dla ktorych drapak pomaga kotu i meblom.",
+    "status": "opublikowany"
+  },
+  {
+    "id": 3,
+    "autor": "Brak autora",
+    "tytul": "Jak przygotowac akwarium dla rybek",
+    "data": "2026-02-10",
+    "kategoria": "Ryby",
+    "opis": "Najwazniejsze kroki przy starcie nowego akwarium.",
+    "status": "opublikowany"
+  },
+  {
+    "id": 4,
+    "autor": "Michal Nowak",
+    "tytul": "Najlepsze zabawy dla krolika",
+    "data": "2026-02-19",
+    "kategoria": "Male zwierzeta",
+    "opis": "Kilka prostych pomyslow na aktywnosci dla krolika w domu.",
+    "status": "opublikowany"
+  },
+  {
+    "id": 5,
+    "autor": "Karolina Lis",
+    "tytul": "Papuga w mieszkaniu od czego zaczac",
+    "data": "2026-03-01",
+    "kategoria": "Ptaki",
+    "opis": "Lista podstawowych rzeczy do przygotowania przed pojawieniem sie papugi w domu.",
+    "status": "opublikowany"
+  }
+]
